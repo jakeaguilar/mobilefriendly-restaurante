@@ -33,6 +33,7 @@
 
 }
 
+
 .main_img1{
     background-image:linear-gradient(rgba(248,248,248, .1),rgba(248,248,248, .1)), url(../img/wood-2.jpg)
 }
@@ -149,5 +150,87 @@
     padding: 7px;
     border: 1px solid #7F7F7F;
     border-radius: 5px;
-    
+}
+
+.contact{
+    background-color: #F8512F;
+    color: #fff;
+    padding: 50px;
+}
+
+.container-contact{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.container-contact h1{
+    font-weight: bolder;
+    font-size: 55px;
+}
+
+.contact-header-text{
+    margin-bottom: 30px;
+}
+
+.form-container{
+    width: 350px;
+    padding: 10px;
+    background-color: #FF6633;
+    border: 1px solid #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.red-aster{
+    color: red;
+}
+
+.contact-form p{
+    margin: 0;
+    justify-self: flex-start;
+    align-self: flex-start;
+}
+
+.checkbox-robot{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.checkbox-robot label{
+    margin-left: 5px;
+    font-weight: 100;
+    color: #fff;
+}
+
+.form-control{
+    margin-bottom: 5px;
+}
+
+.contact-submit{
+    width: fit-content;
+}
+
+.contact-form .required-line{
+    justify-self: center;
+    align-self: center;
+}
+
+.contact-map{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.restaurante-header{
+    margin-top: 0;
 }
