@@ -50,16 +50,21 @@
     max-height: 300px;
 }
 
-.btn_primary{
+.btn-primary{
     color: #fff;
     background-color: #f8512f;
-    /* border-color: transparent; */
+    border-color: transparent;
 }
 
-.btn_primary:hover{
+.btn-primary:hover{
     background-color: #d34326;
     border-color: transparent;
 
+}
+
+.carousel-caption{
+    top: 35%;
+    bottom: auto;
 }
 
 .carousel-caption p{
