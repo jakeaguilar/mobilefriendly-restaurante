@@ -1,4 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
 
+.hr-style{
+    color: #7F7F7F;
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+
+}
+
+.handwriting-font{
+    font-family: 'Pacifico', cursive;
+    font-size: 60px;
+    color: #F8512F;
+}
 
 .carousel{
     margin-bottom: 60px;
@@ -19,6 +33,7 @@
 
 }
 
+
 .main_img1{
     background-image:linear-gradient(rgba(248,248,248, .1),rgba(248,248,248, .1)), url(../img/wood-2.jpg)
 }
@@ -35,13 +50,13 @@
     max-height: 300px;
 }
 
-.btn_primary{
+.btn-primary{
     color: #fff;
     background-color: #f8512f;
-    /* border-color: transparent; */
+    border-color: transparent;
 }
 
-.btn_primary:hover{
+.btn-primary:hover{
     background-color: #d34326;
     border-color: transparent;
 
@@ -57,7 +72,171 @@
     font-size: 16px;
 }
 
-.btn-lg{
-    background-color: #F8512F;
-    border: none;
+.story-header-container{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
 }
+
+.story-text{
+    padding: 20px;
+}
+
+.review{
+    height: 400px;
+    background-image: url(../img/food_review.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* background-position: center; */
+}
+
+.fresno-bee-container{
+    padding: 20px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(45, 48, 30, .75);
+    border-radius: 5px;
+}
+
+.fresno-bee-container p{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+
+.menu{
+    padding: 80px;
+    height: 800px;
+    background-image: url(../img/black_linen.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.menu-header{
+    text-align: center;
+}
+
+.nav-tabs{
+
+}
+
+.tab-pane{ 
+    background-color: #fff;
+    padding: 10px;
+}
+
+.tab-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tab-flex-col{
+    margin: 0;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tab-img{
+    width: 250px;
+    height: 250px;
+    padding: 7px;
+    border: 1px solid #7F7F7F;
+    border-radius: 5px;
+}
+
+.contact{
+    background-color: #F8512F;
+    color: #fff;
+    padding: 50px;
+}
+
+.container-contact{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.container-contact h1{
+    font-weight: bolder;
+    font-size: 55px;
+}
+
+.contact-header-text{
+    margin-bottom: 30px;
+}
+
+.form-container{
+    width: 350px;
+    padding: 10px;
+    background-color: #FF6633;
+    border: 1px solid #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.red-aster{
+    color: red;
+}
+
+.contact-form p{
+    margin: 0;
+    justify-self: flex-start;
+    align-self: flex-start;
+}
+
+.checkbox-robot{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.checkbox-robot label{
+    margin-left: 5px;
+    font-weight: 100;
+    color: #fff;
+}
+
+.form-control{
+    margin-bottom: 5px;
+}
+
+.contact-submit{
+    width: fit-content;
+}
+
+.contact-form .required-line{
+    justify-self: center;
+    align-self: center;
+}
+
+.contact-map{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.restaurante-header{
+    margin-top: 0;
+}
+
