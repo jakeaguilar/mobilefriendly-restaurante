@@ -47,7 +47,17 @@
 
 }
 
+.carousel-caption{
+    top: 35%;
+    bottom: auto;
+}
+
 .carousel-caption p{
     color: #f7f7f7;
     font-size: 16px;
+}
+
+.btn-lg{
+    background-color: #F8512F;
+    border: none;
 }
