@@ -142,6 +142,18 @@ nav.navbar{
     padding: 20px;
 }
 
+.header-1989{
+    position: absolute;
+    left: 50px;
+    color: #EAE9E9;
+    text-shadow: none;
+    font-size: 150px;
+    vertical-align: middle;
+    opacity: .8;
+    z-index: -20;
+
+}
+
 /* REVIEW */
 .review{
     height: 400px;
