@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Lobster|Raleway');
 
+/* OOCSS */
 .hr-style{
     color: #7F7F7F;
     height: 12px;
@@ -9,45 +10,99 @@
 }
 
 .handwriting-font{
-    font-family: 'Pacifico', cursive;
+    font-family: 'Lobster', cursive;
     font-size: 60px;
+    text-shadow: 1px 1px 5px #0a0a0a;
     color: #F8512F;
+}
+
+.red-aster{
+    color: red;
+}
+
+.navbar, .carousel-section, .story, .review, .menu, .contact{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+
+/* NAVBAR */
+/* .navbar{
+    margin: 0;
+    background-color: transparent;
+} */
+
+.nav li a:hover{
+    background-color: transparent;
+}
+
+.navbar-default{
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color: (rgba(17, 17, 17, .5))
+} 
+
+.navbar-default .navbar-nav>li>a{
+    color: #fcfcfc;
+    text-shadow: 1px 1px 2px #0a0a0a;
+}
+
+.navbar-default .navbar-nav li a:hover,
+.navbar-default .navbar-nav li a:focus{
+    color: #f8512f;
+    background-color: rgba(17, 17 , 17, .2);
+}
+
+nav.navbar{
+    position: absolute;
+    top: 100;
+    left: 0;
+    right: 0;
+    z-index: 20;
+}
+
+
+/* CAROUSEL */
+.wrap{
+    padding: 0;
 }
 
 .carousel{
     margin-bottom: 60px;
-
+    /* height: 100vh; */
 }
-
-.carousel-caption{
-    z-index: 10;
-    padding-bottom: 60px;
-}
-
 
 .carousel-inner .item{
     width: 100%;
-    height: 600px;
+    height: 100vh;
     background-size: cover;
-    background-position: center;
 
 }
+/* 
+.carousel-slide{
+    height: 100%;
+} */
 
 
-.main_img1{
-    background-image:linear-gradient(rgba(248,248,248, .1),rgba(248,248,248, .1)), url(../img/wood-2.jpg)
+.main-img1{
+    background-image:linear-gradient(rgba(248,248,248, .1),rgba(248,248,248, .1)), url(../img/wood-2.jpg);
 }
 
-.main_img2{
+.main-img2{
     background-image:linear-gradient(rgba(248,248,248, .1),rgba(248,248,248, .1)), url(../img/restaurant-2.jpg);
 }
 
-.main_img3{
+.main-img3{
     background-image:linear-gradient(rgba(248,248,248, .1),rgba(248,248,248, .1)), url(../img/farm-2.jpg);
 }
 
-.main_logo{
-    max-height: 300px;
+.main-logo{
+    /* max-height: 300px; */
 }
 
 .btn-primary{
@@ -72,6 +127,14 @@
     font-size: 16px;
 }
 
+.main-logo{
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    text-align: center;
+}
+
+/* OUR STORY */
 .story-header-container{
     display: flex;
     justify-content: center;
@@ -83,9 +146,11 @@
     padding: 20px;
 }
 
+/* REVIEW */
 .review{
     height: 400px;
     background-image: url(../img/food_review.jpg);
+    background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -112,6 +177,7 @@
     text-align: center;
 }
 
+/* MENU */
 .menu{
     padding: 80px;
     height: 800px;
@@ -124,9 +190,6 @@
     text-align: center;
 }
 
-.nav-tabs{
-
-}
 
 .tab-pane{ 
     background-color: #fff;
@@ -157,6 +220,7 @@
     border-radius: 5px;
 }
 
+/* CONTACT */
 .contact{
     background-color: #F8512F;
     color: #fff;
@@ -169,12 +233,17 @@
 }
 
 .container-contact h1{
-    font-weight: bolder;
+    font-weight: 700;
     font-size: 55px;
 }
 
 .contact-header-text{
     margin-bottom: 30px;
+}
+
+/* CONTACT FORM */
+.contact-left{
+    margin-bottom: 20px;
 }
 
 .form-container{
@@ -195,9 +264,6 @@
     align-items: center;
 }
 
-.red-aster{
-    color: red;
-}
 
 .contact-form p{
     margin: 0;
@@ -214,7 +280,6 @@
 .checkbox-robot label{
     margin-left: 5px;
     font-weight: 100;
-    color: #fff;
 }
 
 .form-control{
@@ -230,7 +295,9 @@
     align-self: center;
 }
 
-.contact-map{
+/* CONTACT MAP SECTION */
+.contact-right{
+    /* margin-top: 10px; */
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -239,3 +306,7 @@
 .restaurante-header{
     margin-top: 0;
 }
+
+/* @media (min-width: @) { 
+
+ } */
