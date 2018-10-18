@@ -190,6 +190,7 @@ nav.navbar{
     text-align: center;
 }
 
+/* ul.nav.nav-tabs>li */
 
 .tab-pane{ 
     background-color: #fff;
@@ -222,6 +223,7 @@ nav.navbar{
 
 /* CONTACT */
 .contact{
+    height: 100vh;
     background-color: #F8512F;
     color: #fff;
     padding: 50px;
@@ -306,4 +308,7 @@ nav.navbar{
 .restaurante-header{
     margin-top: 0;
 }
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
