@@ -204,6 +204,26 @@ nav.navbar{
     background-color: #fff;
     padding: 10px;
 }
+/* MENU TABS */
+.menu .nav-tabs > .active > a,
+.menu .nav-tabs > .active > a:hover,
+.menu .nav-tabs > .active > a:focus {
+    font-weight: bold;
+    color: #f8512f;
+    background-color: #fff;
+}
+
+.menu .nav-tabs > li > a{
+    font-weight: bold;
+    color: #fcfcfc;
+}
+
+.menu .nav-tabs > .active > a:hover,
+.menu .nav-tabs > .active > a:focus{
+    font-weight: bold;
+    color: #f8512f;
+    background-color: #fff;
+}
 
 .tab-flex{
     display: flex;
