@@ -225,20 +225,9 @@ nav.navbar{
     background-color: #fff;
 }
 
-.tab-flex{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.tab-flex-col{
-    margin: 0;
-    padding: 5px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.tab-content{
+    height: 500px;
+    background-color: #fff;
 }
 
 .tab-img{
